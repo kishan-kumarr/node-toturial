@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <%- include('include/head'); %>
+  <body>
+    <%- include('include/navbars'); %>
+    <br> <br>
+    <div class="container" >
+      <a href="add_user" type="button" class="btn btn-primary">Add User</a>
+      <br>
+      <br>
+      <table id="myTable" class="table table-hover">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <%- include('include/table'); %>
+        </tbody>
+      </table>
+    </div>
+    <%- include('include/footer'); %>
+  </body>
+</html>

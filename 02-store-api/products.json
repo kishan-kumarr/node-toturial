@@ -1,0 +1,132 @@
+[
+    {
+      "name": "accent chair",
+      "price": 25,
+      "company": "node",
+      "rating": 4
+    },
+    {
+      "name": "albany sectional",
+      "price": 109,
+      "company": "react",
+      "rating": 5
+    },
+    {
+      "name": "albany table",
+      "price": 309,
+      "company": "react",
+      "rating": 4.9
+    },
+    {
+      "name": "armchair",
+      "price": 125,
+      "company": "node",
+      "rating": 4.8
+    },
+    {
+      "name": "bar stool",
+      "price": 40,
+      "company": "react",
+      "rating": 4.6
+    },
+    {
+      "name": "dining table",
+      "price": 42,
+      "company": "mongo",
+      "rating": 4.55
+    },
+    {
+      "name": "emperor bed",
+      "price": 23,
+      "company": "mongo"
+    },
+    {
+      "name": "entertainment center",
+      "price": 59,
+      "featured": true,
+      "company": "express"
+    },
+    {
+      "name": "high-back bench",
+      "price": 39,
+      "featured": true,
+      "company": "mongo"
+    },
+  
+    {
+      "name": "leather sofa",
+      "price": 99,
+      "company": "express"
+    },
+    {
+      "name": "modern bookshelf",
+      "price": 31,
+      "featured": true,
+      "company": "express"
+    },
+    {
+      "name": "modern poster",
+      "price": 30,
+      "company": "react"
+    },
+    {
+      "name": "shelf",
+      "price": 30,
+      "company": "mongo"
+    },
+    {
+      "name": "simple chair",
+      "price": 109,
+      "company": "react"
+    },
+    {
+      "name": "sofa set",
+      "price": 129,
+      "company": "node"
+    },
+    {
+      "name": "suede armchair",
+      "price": 15,
+      "company": "express"
+    },
+    {
+      "name": "utopia sofa",
+      "price": 79,
+      "featured": true,
+      "company": "react"
+    },
+    {
+      "name": "vase table",
+      "price": 120,
+      "featured": true,
+      "company": "node"
+    },
+    {
+      "name": "wooden bed",
+      "price": 25,
+      "company": "mongo"
+    },
+    {
+      "name": "wooden desk",
+      "price": 15,
+      "company": "mongo"
+    },
+    {
+      "name": "wooden desk",
+      "price": 40,
+      "company": "mongo"
+    },
+    {
+      "name": "wooden table",
+      "price": 23,
+      "featured": true,
+      "company": "express"
+    },
+    {
+      "name": "a first wooden table",
+      "price": 23,
+      "featured": true,
+      "company": "express"
+    }
+  ]
+  

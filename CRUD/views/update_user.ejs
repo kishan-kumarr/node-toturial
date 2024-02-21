@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <%- include('include/head'); %>
+  <body>
+    <%- include('include/navbars'); %>
+    <br> <br>
+    <div class="container" >
+    <a href="/" type="button" class="btn btn-info"> << Back</a>
+    <br>
+    <br>
+    <div class="alert alert-primary" role="alert">
+        <center><strong>Update User</strong></center>
+    </div>
+    <br>
+    <form action="/update_user" method="POST" >
+        <div class="form-group">
+            <label for="email">Name:</label>
+            <input type="text" name="name" value="<%= user.data.data.name %>" class="form-control" placeholder="Enter Name" id="name">
+            <input type="hidden" name="id" value="<%= user.data.data._id %>" id="userid">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Email:</label>
+            <input type="email" name="email" value="<%= user.data.data.email %>" readonly class="form-control" placeholder="Enter email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Gender</label>
+            <select class="form-control" id="gender" name="gender">
+              <option>-- Select --</option>
+              <option <%= (user.data.data.gender == "Male")? 'selected':'' %> value = "Male" >Male</option>
+              <option <%= (user.data.data.gender == "Female")? 'selected':'' %> value = "Female">Female</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Status</label>
+            <select class="form-control" id="status" name="status">
+              <option>-- Select --</option>
+              <option <%= (user.data.data.status == 1 )? 'selected':'' %> value = "1" >Active</option>
+              <option <%= (user.data.data.status == 0 )? 'selected':'' %> value = "0">InActive</option>
+            </select>
+        </div>
+        <button type="submit" id="update_user" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+    <%- include('include/footer'); %>
+  </body>
+</html>
